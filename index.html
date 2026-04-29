@@ -2,35 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Website</title>
+  <title>Remoric's Reich</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      background: #0f172a;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
       color: white;
       text-align: center;
-      padding: 50px;
     }
+
+    header {
+      padding: 60px 20px;
+    }
+
     h1 {
       font-size: 3em;
+      margin-bottom: 10px;
     }
+
     p {
       color: #94a3b8;
     }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card {
+      background: #1e293b;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 500px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
     .btn {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 15px;
       padding: 10px 20px;
       background: #3b82f6;
       color: white;
-      text-decoration: none;
       border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      color: #64748b;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Site</h1>
-  <p>This is my GitHub Pages website 🚀</p>
-  <a class="btn" href="#">Click Me</a>
+
+  <header>
+    <h1>Remoric's Reich</h1>
+    <p>Welcome.</p>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <div class="card">
+    <h2>What is Remorics Reich?</h2>
+    <p>Remorics Reich is an anti-furry and anti-lgbtq+ led by The Iron Führer.</p>
+    <a class="btn" href="#">View More</a>
+  </div>
+
+  <footer>
+    <p>© 2026 Remoric</p>
+  </footer>
+
 </body>
 </html>
